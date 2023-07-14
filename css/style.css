@@ -1,0 +1,70 @@
+
+.container {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+}
+
+.left-content {
+    flex: 1;
+  }
+  
+  .canvas {
+    flex: 1;
+    border: #999999 1px solid;
+  }
+
+section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.emotion {
+    display: none;
+    justify-content: center;
+    
+}
+
+.emotionLabel {
+    margin: 3px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    background-color: #999999;
+    color: white;
+}
+
+.emotion:checked+label {
+    background-color: #666666;
+    border: #000000 solid 2px;
+}
+
+.emotionOption {
+    display: flex;
+}
+
+.scale {
+    display: none;
+}
+
+.scaleLabel {
+    padding: 4px 6px;
+    border-radius: 3px;
+    background-color: #999999;
+    color: white;
+}
+
+.scale:checked+label {
+    background-color: #666666;
+    border: #000000 solid 2px;
+}
+
+p {
+    margin-bottom: 4px;
+}
+
+.canvas {
+    margin: 20px;
+    padding: 10px;
+}
+
+
